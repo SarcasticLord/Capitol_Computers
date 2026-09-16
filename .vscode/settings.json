@@ -66,5 +66,5 @@
     "explorer.fileNesting.patterns": {
         "*.sln": "*.csproj"
     },
-    "dotnet.defaultSolution": "SarcasticOS.slnx"
+    "dotnet.defaultSolution": "Capitol_Computers.slnx"
 }

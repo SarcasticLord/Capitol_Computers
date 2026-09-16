@@ -17336,11 +17336,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 595798353639795309, guid: dcbfd42487f653943b66bcb41039937d, type: 3}
       propertyPath: m_text
-      value: C:/blockblaster/rollamaze/healthbar
+      value: C:/rollamaze/healthbar
       objectReference: {fileID: 0}
     - target: {fileID: 595798353639795309, guid: dcbfd42487f653943b66bcb41039937d, type: 3}
       propertyPath: m_margin.z
-      value: -273.39117
+      value: -0.14186099
       objectReference: {fileID: 0}
     - target: {fileID: 595798353639795309, guid: dcbfd42487f653943b66bcb41039937d, type: 3}
       propertyPath: m_fontAsset
@@ -17350,6 +17350,10 @@ PrefabInstance:
       propertyPath: m_sharedMaterial
       value: 
       objectReference: {fileID: -699112959996641730, guid: 241c6acceca8b844baad6cbcf60cefc7, type: 2}
+    - target: {fileID: 595798353639795309, guid: dcbfd42487f653943b66bcb41039937d, type: 3}
+      propertyPath: m_VerticalAlignment
+      value: 512
+      objectReference: {fileID: 0}
     - target: {fileID: 595798353639795309, guid: dcbfd42487f653943b66bcb41039937d, type: 3}
       propertyPath: m_hasFontAssetChanged
       value: 0
@@ -17452,11 +17456,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 816537998255223941, guid: dcbfd42487f653943b66bcb41039937d, type: 3}
       propertyPath: m_text
-      value: C:/blockblaster/rollamaze/minimap
+      value: C:/rollamaze/minimap
       objectReference: {fileID: 0}
     - target: {fileID: 816537998255223941, guid: dcbfd42487f653943b66bcb41039937d, type: 3}
       propertyPath: m_margin.z
-      value: -232.06625
+      value: 0.098663315
       objectReference: {fileID: 0}
     - target: {fileID: 816537998255223941, guid: dcbfd42487f653943b66bcb41039937d, type: 3}
       propertyPath: m_fontAsset
@@ -17510,6 +17514,22 @@ PrefabInstance:
       propertyPath: m_hasFontAssetChanged
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1536169204797669286, guid: dcbfd42487f653943b66bcb41039937d, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 527.4852
+      objectReference: {fileID: 0}
+    - target: {fileID: 1536169204797669286, guid: dcbfd42487f653943b66bcb41039937d, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 56.766
+      objectReference: {fileID: 0}
+    - target: {fileID: 1536169204797669286, guid: dcbfd42487f653943b66bcb41039937d, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 63.34131
+      objectReference: {fileID: 0}
+    - target: {fileID: 1536169204797669286, guid: dcbfd42487f653943b66bcb41039937d, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.0000066161
+      objectReference: {fileID: 0}
     - target: {fileID: 1556111195854485597, guid: dcbfd42487f653943b66bcb41039937d, type: 3}
       propertyPath: m_SizeDelta.x
       value: 286.8
@@ -17528,11 +17548,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1706469368724026181, guid: dcbfd42487f653943b66bcb41039937d, type: 3}
       propertyPath: m_text
-      value: C:/blockblaster/rollamaze/sandwichcounter
+      value: C:/rollamaze/sandwichcounter
       objectReference: {fileID: 0}
     - target: {fileID: 1706469368724026181, guid: dcbfd42487f653943b66bcb41039937d, type: 3}
       propertyPath: m_margin.z
-      value: -421.3285
+      value: -0.05397794
       objectReference: {fileID: 0}
     - target: {fileID: 1706469368724026181, guid: dcbfd42487f653943b66bcb41039937d, type: 3}
       propertyPath: m_fontAsset
@@ -17542,6 +17562,10 @@ PrefabInstance:
       propertyPath: m_sharedMaterial
       value: 
       objectReference: {fileID: -699112959996641730, guid: 241c6acceca8b844baad6cbcf60cefc7, type: 2}
+    - target: {fileID: 1706469368724026181, guid: dcbfd42487f653943b66bcb41039937d, type: 3}
+      propertyPath: m_VerticalAlignment
+      value: 512
+      objectReference: {fileID: 0}
     - target: {fileID: 1706469368724026181, guid: dcbfd42487f653943b66bcb41039937d, type: 3}
       propertyPath: m_hasFontAssetChanged
       value: 0
@@ -17642,6 +17666,22 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -0.00012302
       objectReference: {fileID: 0}
+    - target: {fileID: 3465152478803521658, guid: dcbfd42487f653943b66bcb41039937d, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 227.6557
+      objectReference: {fileID: 0}
+    - target: {fileID: 3465152478803521658, guid: dcbfd42487f653943b66bcb41039937d, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 42.431
+      objectReference: {fileID: 0}
+    - target: {fileID: 3465152478803521658, guid: dcbfd42487f653943b66bcb41039937d, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 27.372284
+      objectReference: {fileID: 0}
+    - target: {fileID: 3465152478803521658, guid: dcbfd42487f653943b66bcb41039937d, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.087226
+      objectReference: {fileID: 0}
     - target: {fileID: 3524615058291535530, guid: dcbfd42487f653943b66bcb41039937d, type: 3}
       propertyPath: m_margin.w
       value: -0.066143036
@@ -17726,6 +17766,22 @@ PrefabInstance:
       propertyPath: m_hasFontAssetChanged
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3689132067417429132, guid: dcbfd42487f653943b66bcb41039937d, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 373.2491
+      objectReference: {fileID: 0}
+    - target: {fileID: 3689132067417429132, guid: dcbfd42487f653943b66bcb41039937d, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 56.766
+      objectReference: {fileID: 0}
+    - target: {fileID: 3689132067417429132, guid: dcbfd42487f653943b66bcb41039937d, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 44.8383
+      objectReference: {fileID: 0}
+    - target: {fileID: 3689132067417429132, guid: dcbfd42487f653943b66bcb41039937d, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.000011174001
+      objectReference: {fileID: 0}
     - target: {fileID: 3714115221093750405, guid: dcbfd42487f653943b66bcb41039937d, type: 3}
       propertyPath: m_text
       value: "\u25FB"
@@ -17808,11 +17864,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4212811417276584301, guid: dcbfd42487f653943b66bcb41039937d, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 357.6883
+      value: 363.7752
       objectReference: {fileID: 0}
     - target: {fileID: 4212811417276584301, guid: dcbfd42487f653943b66bcb41039937d, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 42.9716
+      value: 43.701797
       objectReference: {fileID: 0}
     - target: {fileID: 4218216221243125717, guid: dcbfd42487f653943b66bcb41039937d, type: 3}
       propertyPath: m_fontAsset
@@ -18216,11 +18272,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7787718933800533857, guid: dcbfd42487f653943b66bcb41039937d, type: 3}
       propertyPath: m_text
-      value: C:/blockblaster/rollamaze/youwon
+      value: C:/rollamaze/youwon
       objectReference: {fileID: 0}
     - target: {fileID: 7787718933800533857, guid: dcbfd42487f653943b66bcb41039937d, type: 3}
       propertyPath: m_margin.z
-      value: -249.74884
+      value: -0.7093049
       objectReference: {fileID: 0}
     - target: {fileID: 7787718933800533857, guid: dcbfd42487f653943b66bcb41039937d, type: 3}
       propertyPath: m_fontAsset
@@ -18231,8 +18287,28 @@ PrefabInstance:
       value: 
       objectReference: {fileID: -699112959996641730, guid: 241c6acceca8b844baad6cbcf60cefc7, type: 2}
     - target: {fileID: 7787718933800533857, guid: dcbfd42487f653943b66bcb41039937d, type: 3}
+      propertyPath: m_VerticalAlignment
+      value: 512
+      objectReference: {fileID: 0}
+    - target: {fileID: 7787718933800533857, guid: dcbfd42487f653943b66bcb41039937d, type: 3}
       propertyPath: m_hasFontAssetChanged
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7988647642711601375, guid: dcbfd42487f653943b66bcb41039937d, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 404.9133
+      objectReference: {fileID: 0}
+    - target: {fileID: 7988647642711601375, guid: dcbfd42487f653943b66bcb41039937d, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 42.431
+      objectReference: {fileID: 0}
+    - target: {fileID: 7988647642711601375, guid: dcbfd42487f653943b66bcb41039937d, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 48.636993
+      objectReference: {fileID: 0}
+    - target: {fileID: 7988647642711601375, guid: dcbfd42487f653943b66bcb41039937d, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.08724
       objectReference: {fileID: 0}
     - target: {fileID: 8482721750194816115, guid: dcbfd42487f653943b66bcb41039937d, type: 3}
       propertyPath: m_SizeDelta.x
@@ -18248,20 +18324,32 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8716576672670914825, guid: dcbfd42487f653943b66bcb41039937d, type: 3}
       propertyPath: m_text
-      value: C:/blockblaster/rollamaze
+      value: C:/rollamaze
+      objectReference: {fileID: 0}
+    - target: {fileID: 8716576672670914825, guid: dcbfd42487f653943b66bcb41039937d, type: 3}
+      propertyPath: m_fontSize
+      value: 36.81
       objectReference: {fileID: 0}
     - target: {fileID: 8716576672670914825, guid: dcbfd42487f653943b66bcb41039937d, type: 3}
       propertyPath: m_margin.z
-      value: -89.80669
+      value: -0.4971924
       objectReference: {fileID: 0}
     - target: {fileID: 8716576672670914825, guid: dcbfd42487f653943b66bcb41039937d, type: 3}
       propertyPath: m_fontAsset
       value: 
       objectReference: {fileID: 11400000, guid: 241c6acceca8b844baad6cbcf60cefc7, type: 2}
     - target: {fileID: 8716576672670914825, guid: dcbfd42487f653943b66bcb41039937d, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 36.81
+      objectReference: {fileID: 0}
+    - target: {fileID: 8716576672670914825, guid: dcbfd42487f653943b66bcb41039937d, type: 3}
       propertyPath: m_sharedMaterial
       value: 
       objectReference: {fileID: -699112959996641730, guid: 241c6acceca8b844baad6cbcf60cefc7, type: 2}
+    - target: {fileID: 8716576672670914825, guid: dcbfd42487f653943b66bcb41039937d, type: 3}
+      propertyPath: m_VerticalAlignment
+      value: 512
+      objectReference: {fileID: 0}
     - target: {fileID: 8716576672670914825, guid: dcbfd42487f653943b66bcb41039937d, type: 3}
       propertyPath: m_hasFontAssetChanged
       value: 0

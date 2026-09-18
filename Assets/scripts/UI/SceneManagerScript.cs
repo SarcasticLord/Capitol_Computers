@@ -6,14 +6,14 @@ using UnityEngine.SceneManagement;
 
 // this is where the scene changer is and where the ui elements on the title and exit screen are
 
-public class TitleScene : MonoBehaviour
+public class SceneManagerScript : MonoBehaviour
 {
 
     public GameObject[] textObjects;
     public GameObject directions;
     public GameObject[] flashingText;
     
-    public static TitleScene instance;
+    public static SceneManagerScript instance;
 
     public RectTransform clickAnywhere;
 

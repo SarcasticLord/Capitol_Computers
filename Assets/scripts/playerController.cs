@@ -135,8 +135,8 @@ public class PlayerController : MonoBehaviour
 
         if (other.CompareTag("directions")) // colliding with the invisible wall changes the ui
         {
-            TitleScene.instance.directions.SetActive(false);  
-            TitleScene.instance.StartCoroutine(TitleScene.instance.TitleText());
+            SceneManagerScript.instance.directions.SetActive(false);  
+            SceneManagerScript.instance.StartCoroutine(SceneManagerScript.instance.TitleText());
         }
 
     }
@@ -186,7 +186,7 @@ public class PlayerController : MonoBehaviour
 
         if (GameManager.instance.lives <= 0)
         {
-            TitleScene.instance.ToTitle();
+            SceneManagerScript.instance.ToTitle();
             GameManager.instance.ResetGame();
         }
             

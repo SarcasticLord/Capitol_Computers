@@ -42,7 +42,7 @@ public class GameManager : MonoBehaviour
         {
             
             ObjectiveUI.instance.winTextObject.SetActive(true);
-            TitleScene.instance.Invoke("ToTitle", 5f);
+            SceneManagerScript.instance.Invoke("ToTitle", 5f);
 
             if (ObjectiveUI.instance.timer != null)
             {

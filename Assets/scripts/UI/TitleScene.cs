@@ -85,18 +85,7 @@ public class TitleScene : MonoBehaviour
 
 
                         // open scenes / if you change anything in here you will need to relink everything 
-    public void StartGame() // STARTS BLOCKBUSTER
-    {
-        SaveState.lastScene = "Blockblaster";
-        SceneManager.LoadScene("BlockblasterMain");
-        WindowManager.instance.startBlockblaster.SetActive(true);
-    }
-
-    public void Minigame() // START ROLL A MAZE
-    {
-        SaveState.lastScene = "RollaMaze";
-        SceneManager.LoadScene("rollamaze");
-    }
+    
 
     public void TerminalGame() // START TERMINAL GAME
     {
@@ -123,6 +112,12 @@ public class TitleScene : MonoBehaviour
     public void POST() // OPENS POST
     {
         SceneManager.LoadScene("OSloading");
+    }
+
+    public void OpenStore() // opens store
+    {
+        //SaveState.lastScene = "RollaMaze";
+        SceneManager.LoadScene("GamesStore");
     }
 
     public void CriticalError() // critical error debug

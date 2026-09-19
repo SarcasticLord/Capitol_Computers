@@ -8618,14 +8618,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Left Click - sweep
-
-    Right Click - attack
-
-    Q - drop item
-
-    E
-    - Pickup Box'
+  m_text: "Left Click - read\nRight Click - \nQ - drop item\nE - Pickup Mail"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 241c6acceca8b844baad6cbcf60cefc7, type: 2}
   m_sharedMaterial: {fileID: -699112959996641730, guid: 241c6acceca8b844baad6cbcf60cefc7, type: 2}

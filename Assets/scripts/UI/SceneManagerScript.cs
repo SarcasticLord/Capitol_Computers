@@ -52,7 +52,7 @@ public class SceneManagerScript : MonoBehaviour
         {
             if (RectTransformUtility.RectangleContainsScreenPoint(clickAnywhere, Input.mousePosition)) // right clickig on the folder opens the delete menu and closes the new menu
             {
-                SceneManager.LoadScene("windows");
+                SceneManager.LoadScene("CapitolWindows");
             } 
         }
     }
@@ -106,7 +106,7 @@ public class SceneManagerScript : MonoBehaviour
 
     public void WindowsOS() // OPENS WINDOWS OS
     {
-        SceneManager.LoadScene("windows");
+        SceneManager.LoadScene("CapitolWindows");
     }
 
     public void POST() // OPENS POST

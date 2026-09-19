@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/Scenes/UI/OSloading.unity
     guid: 1fbfbd2e2b1ac24499fbdcfb262e10ff
   - enabled: 1
-    path: Assets/Scenes/windows.unity
+    path: Assets/Scenes/CapitolWindows.unity
     guid: cfa7773b1d059f144a6a0ae88b485ff3
   - enabled: 1
     path: Assets/Scenes/ExtraGames/BlockblasterMain.unity

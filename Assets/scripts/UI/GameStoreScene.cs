@@ -25,7 +25,7 @@ public class GameStoreScene : MonoBehaviour
 
     public void CapitolWindows() // OPENS WINDOWS OS
     {
-        SceneManager.LoadScene("windows");
+        SceneManager.LoadScene("CapitolWindows");
     }
 
     public void StartBlock() // STARTS BLOCKBUSTER

@@ -6,12 +6,15 @@ public class DragandDrop : MonoBehaviour, IBeginDragHandler, IDragHandler//, IEn
 {
     private RectTransform rectTransform;
     private RectTransform window;
+    
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Awake()
     {
         rectTransform = GetComponent<RectTransform>();
-        window = transform.parent.GetComponent<RectTransform>();
+        Window win = GetComponentInParent<Window>();
+        if (win != null)
+            window = win.GetComponent<RectTransform>();
     }
 
 

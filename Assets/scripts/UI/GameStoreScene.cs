@@ -32,7 +32,7 @@ public class GameStoreScene : MonoBehaviour
     {
         SaveState.lastScene = "Blockblaster";
         SceneManager.LoadScene("BlockblasterMain");
-        WindowManager.instance.startBlockblaster.SetActive(true);
+        //WindowManager.instance.startBlockblaster.SetActive(true);
     }
 
     public void StartGoose() // START ROLL A MAZE

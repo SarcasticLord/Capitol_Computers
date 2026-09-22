@@ -1173,7 +1173,7 @@ MonoBehaviour:
   delay: 0.05
   lines:
   - STARTING_BOOT_CAPITOL_COMPUTERS
-  - E7C84AMS.1B0     08/11/1998
+  - CapitolSystems
   - 'AMD Ryzen 5 5600X 6-Core Processor          , Speed: 100.00x42.7=4270.00 MHz'
   - DRAM Frequency for DDR4 2400 MHz(Dual Channel)
   - DRAM Size is 32768 MB

@@ -418,7 +418,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 112.3, y: 2.9330444}
+  m_AnchoredPosition: {x: 162, y: 2.9330444}
   m_SizeDelta: {x: 334.8062, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &75001970
@@ -618,7 +618,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'C:/Type-40-Mk-1-TT> '
+  m_text: '{machine} / >'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 241c6acceca8b844baad6cbcf60cefc7, type: 2}
   m_sharedMaterial: {fileID: -699112959996641730, guid: 241c6acceca8b844baad6cbcf60cefc7, type: 2}
@@ -1708,7 +1708,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'C:/Type-40-Mk-1-TT> 4
+  m_text: '{machine} / > 4
 
 '
   m_isRightToLeft: 0
@@ -3291,6 +3291,7 @@ GameObject:
   - component: {fileID: 1482889697}
   - component: {fileID: 1482889696}
   - component: {fileID: 1482889695}
+  - component: {fileID: 1482889698}
   m_Layer: 0
   m_Name: SceneManager
   m_TagString: Untagged
@@ -3365,6 +3366,26 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1956019344}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1482889698
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1482889694}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ce906615ed9241da81e27822aebb5a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ComputerInfo
+  timerText: {fileID: 1758131126}
+  dateText: {fileID: 1758131126}
+  machineText: {fileID: 1758131126}
+  osText: {fileID: 1758131126}
+  textFields:
+  - {fileID: 731974790}
+  - {fileID: 1948933207}
+  - {fileID: 82236563}
 --- !u!1 &1552381905
 GameObject:
   m_ObjectHideFlags: 0
@@ -4200,7 +4221,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: C:/Type-40-Mk-1-TT> TitleScene
+  m_text: '{machine} / > TitleScene'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 241c6acceca8b844baad6cbcf60cefc7, type: 2}
   m_sharedMaterial: {fileID: -699112959996641730, guid: 241c6acceca8b844baad6cbcf60cefc7, type: 2}

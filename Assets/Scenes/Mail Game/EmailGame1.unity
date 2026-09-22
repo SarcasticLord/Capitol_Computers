@@ -433,6 +433,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ClockTimer
   timerText: {fileID: 419931511}
+  dateText: {fileID: 0}
+  machineText: {fileID: 0}
+  osText: {fileID: 0}
+  textFields: []
 --- !u!222 &419931513
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1598,8 +1602,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 27.465, y: 0.052223027}
-  m_SizeDelta: {x: 228.94, y: 42.139}
+  m_AnchoredPosition: {x: 62.93567, y: 0.052223027}
+  m_SizeDelta: {x: 524.6152, y: 42.139}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &800210364406575687
 MonoBehaviour:
@@ -1621,7 +1625,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: C:/capitolMail/youwon
+  m_text: /capitolMail/youwon
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 241c6acceca8b844baad6cbcf60cefc7, type: 2}
   m_sharedMaterial: {fileID: -699112959996641730, guid: 241c6acceca8b844baad6cbcf60cefc7, type: 2}
@@ -1799,8 +1803,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 49.258636, y: 0.08724}
-  m_SizeDelta: {x: 410.0956, y: 42.431}
+  m_AnchoredPosition: {x: 47.513268, y: 0.08724}
+  m_SizeDelta: {x: 395.5467, y: 42.431}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &962347854109772432
 MonoBehaviour:
@@ -2115,8 +2119,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 45.02707, y: 0.0000066161}
-  m_SizeDelta: {x: 374.8217, y: 56.766}
+  m_AnchoredPosition: {x: 42.96338, y: 0.0000066161}
+  m_SizeDelta: {x: 357.6194, y: 56.766}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1210613155874940567
 MonoBehaviour:
@@ -2359,7 +2363,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: C:/capitolMail/directions
+  m_text: /capitolMail/directions
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 241c6acceca8b844baad6cbcf60cefc7, type: 2}
   m_sharedMaterial: {fileID: -699112959996641730, guid: 241c6acceca8b844baad6cbcf60cefc7, type: 2}
@@ -2711,8 +2715,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 50.6063, y: 0.000007778406}
-  m_SizeDelta: {x: 421.84, y: 56.766}
+  m_AnchoredPosition: {x: 47.24346, y: 0.000007778406}
+  m_SizeDelta: {x: 393.8078, y: 56.766}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1725800210766156975
 MonoBehaviour:
@@ -4481,7 +4485,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: C:/capitolMail
+  m_text: /CapitolComputers/capitolMail
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 241c6acceca8b844baad6cbcf60cefc7, type: 2}
   m_sharedMaterial: {fileID: -699112959996641730, guid: 241c6acceca8b844baad6cbcf60cefc7, type: 2}
@@ -7923,7 +7927,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: C:/capitolMail/healthbar
+  m_text: /capitolMail/healthbar
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 241c6acceca8b844baad6cbcf60cefc7, type: 2}
   m_sharedMaterial: {fileID: -699112959996641730, guid: 241c6acceca8b844baad6cbcf60cefc7, type: 2}
@@ -8240,8 +8244,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 49.864, y: 0.0000066161}
-  m_SizeDelta: {x: 415.66, y: 56.766}
+  m_AnchoredPosition: {x: 47.72793, y: 0.0000066161}
+  m_SizeDelta: {x: 397.8542, y: 56.766}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7367380981218188866
 CanvasRenderer:
@@ -9883,7 +9887,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: C:/capitolMail/controls
+  m_text: /capitolMail/controls
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 241c6acceca8b844baad6cbcf60cefc7, type: 2}
   m_sharedMaterial: {fileID: -699112959996641730, guid: 241c6acceca8b844baad6cbcf60cefc7, type: 2}

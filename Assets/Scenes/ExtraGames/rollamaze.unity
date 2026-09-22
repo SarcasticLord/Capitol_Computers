@@ -489,8 +489,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 35.78412, y: -0.0000022054}
-  m_SizeDelta: {x: 237.0287, y: 50.79}
+  m_AnchoredPosition: {x: 79.861755, y: -0.0000022054}
+  m_SizeDelta: {x: 528.9939, y: 50.79}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &26115858
 MonoBehaviour:
@@ -512,7 +512,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: C:/rollamaze
+  m_text: /CapitolComputers/rollamaze
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 241c6acceca8b844baad6cbcf60cefc7, type: 2}
   m_sharedMaterial: {fileID: -699112959996641730, guid: 241c6acceca8b844baad6cbcf60cefc7, type: 2}
@@ -19269,8 +19269,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 39.806183, y: -0.47}
-  m_SizeDelta: {x: 331.3019, y: 47.076}
+  m_AnchoredPosition: {x: 39.80623, y: 0.000011176}
+  m_SizeDelta: {x: 331.302, y: 56.766}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &323882172826138119
 CanvasRenderer:
@@ -19387,7 +19387,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: C:/rollamaze/timer
+  m_text: /rollamaze/timer
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 241c6acceca8b844baad6cbcf60cefc7, type: 2}
   m_sharedMaterial: {fileID: -699112959996641730, guid: 241c6acceca8b844baad6cbcf60cefc7, type: 2}
@@ -19422,7 +19422,7 @@ MonoBehaviour:
   m_fontSizeMax: 72
   m_fontStyle: 0
   m_HorizontalAlignment: 2
-  m_VerticalAlignment: 256
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_characterHorizontalScale: 1
@@ -19453,7 +19453,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0.2712536, z: -15.797943, w: -0.24627113}
+  m_margin: {x: 0, y: 0.2712536, z: 0.42259216, w: -0.24627113}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -19510,7 +19510,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: C:/rollamaze/healthbar
+  m_text: /rollamaze/healthbar
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 241c6acceca8b844baad6cbcf60cefc7, type: 2}
   m_sharedMaterial: {fileID: -699112959996641730, guid: 241c6acceca8b844baad6cbcf60cefc7, type: 2}
@@ -19640,7 +19640,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: C:/rollamaze/minimap
+  m_text: /rollamaze/minimap
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 241c6acceca8b844baad6cbcf60cefc7, type: 2}
   m_sharedMaterial: {fileID: -699112959996641730, guid: 241c6acceca8b844baad6cbcf60cefc7, type: 2}
@@ -19675,7 +19675,7 @@ MonoBehaviour:
   m_fontSizeMax: 72
   m_fontStyle: 0
   m_HorizontalAlignment: 2
-  m_VerticalAlignment: 256
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_characterHorizontalScale: 1
@@ -20099,8 +20099,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 63.34131, y: 0.0000066161}
-  m_SizeDelta: {x: 527.4852, y: 56.766}
+  m_AnchoredPosition: {x: 59.8561, y: 0.0000066161}
+  m_SizeDelta: {x: 498.4337, y: 56.766}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &1510219817203391620
 RectTransform:
@@ -20203,7 +20203,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: C:/rollamaze/sandwichcounter
+  m_text: /rollamaze/sandwichcounter
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 241c6acceca8b844baad6cbcf60cefc7, type: 2}
   m_sharedMaterial: {fileID: -699112959996641730, guid: 241c6acceca8b844baad6cbcf60cefc7, type: 2}
@@ -20453,7 +20453,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: C:/rollamaze/youlost
+  m_text: /rollamaze/youlost
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 241c6acceca8b844baad6cbcf60cefc7, type: 2}
   m_sharedMaterial: {fileID: -699112959996641730, guid: 241c6acceca8b844baad6cbcf60cefc7, type: 2}
@@ -20488,7 +20488,7 @@ MonoBehaviour:
   m_fontSizeMax: 72
   m_fontStyle: 0
   m_HorizontalAlignment: 2
-  m_VerticalAlignment: 256
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_characterHorizontalScale: 1
@@ -20519,7 +20519,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0.2712536, z: -29.268066, w: -0.24627113}
+  m_margin: {x: 0, y: 0.2712536, z: 0.37947083, w: -0.24627113}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -20917,8 +20917,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 44.8383, y: 0.000011174001}
-  m_SizeDelta: {x: 373.2491, y: 56.766}
+  m_AnchoredPosition: {x: 40.287674, y: 0.000011174001}
+  m_SizeDelta: {x: 335.3162, y: 56.766}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3632713860979282296
 CanvasRenderer:
@@ -21092,8 +21092,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 43.701797, y: -0.47}
-  m_SizeDelta: {x: 363.7752, y: 47.076}
+  m_AnchoredPosition: {x: 39.2901, y: 0.0000043213}
+  m_SizeDelta: {x: 327, y: 47.076}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &4262078909320950930
 RectTransform:
@@ -22576,8 +22576,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 35.9776, y: -0.47}
-  m_SizeDelta: {x: 299.3881, y: 47.076}
+  m_AnchoredPosition: {x: 34.1707, y: 0.000011176}
+  m_SizeDelta: {x: 284.3261, y: 56.766}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7644901616288177968
 CanvasRenderer:
@@ -22648,7 +22648,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: C:/rollamaze/youwon
+  m_text: /rollamaze/youwon
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 241c6acceca8b844baad6cbcf60cefc7, type: 2}
   m_sharedMaterial: {fileID: -699112959996641730, guid: 241c6acceca8b844baad6cbcf60cefc7, type: 2}
@@ -22855,8 +22855,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 48.636993, y: 0.08724}
-  m_SizeDelta: {x: 404.9133, y: 42.431}
+  m_AnchoredPosition: {x: 46.1618, y: 0.08724}
+  m_SizeDelta: {x: 384.281, y: 42.431}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &8062204136341544568
 GameObject:

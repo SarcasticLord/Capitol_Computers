@@ -2069,7 +2069,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "<     Wifi     24%     Wed Apr 1\t"
+  m_text: MM/dd/yyyy
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 241c6acceca8b844baad6cbcf60cefc7, type: 2}
   m_sharedMaterial: {fileID: -699112959996641730, guid: 241c6acceca8b844baad6cbcf60cefc7, type: 2}
@@ -2311,7 +2311,6 @@ GameObject:
   m_Component:
   - component: {fileID: 669448474}
   - component: {fileID: 669448477}
-  - component: {fileID: 669448476}
   - component: {fileID: 669448475}
   m_Layer: 5
   m_Name: time
@@ -2431,19 +2430,6 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!114 &669448476
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 669448473}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4ce906615ed9241da81e27822aebb5a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ClockTimer
-  timerText: {fileID: 669448475}
 --- !u!222 &669448477
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4607,6 +4593,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1699178322}
   - component: {fileID: 1699178323}
+  - component: {fileID: 1699178324}
   m_Layer: 0
   m_Name: SceneManager
   m_TagString: Untagged
@@ -4644,6 +4631,23 @@ MonoBehaviour:
   statsWindow: {fileID: 878572699}
   StatsText:
   - {fileID: 878572699}
+--- !u!114 &1699178324
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1699178319}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ce906615ed9241da81e27822aebb5a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ComputerInfo
+  timerText: {fileID: 669448475}
+  dateText: {fileID: 605945979}
+  machineText: {fileID: 0}
+  osText: {fileID: 0}
+  textFields: []
 --- !u!1 &1722521467
 GameObject:
   m_ObjectHideFlags: 0
@@ -5928,8 +5932,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 25.0939, y: 0.00004375}
-  m_SizeDelta: {x: 208.6637, y: 70.788}
+  m_AnchoredPosition: {x: 82.91582, y: 0.00004375}
+  m_SizeDelta: {x: 690.6541, y: 70.788}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &416760335216677084
 GameObject:
@@ -6743,7 +6747,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Terminal
+  m_text: /CapitolComputers/terminal
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 241c6acceca8b844baad6cbcf60cefc7, type: 2}
   m_sharedMaterial: {fileID: -699112959996641730, guid: 241c6acceca8b844baad6cbcf60cefc7, type: 2}

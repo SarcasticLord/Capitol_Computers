@@ -11435,7 +11435,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textObjects:
-  - {fileID: 0}
   - {fileID: 927158467}
   - {fileID: 927158467}
   - {fileID: 428544541622073465}

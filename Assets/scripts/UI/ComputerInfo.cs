@@ -16,7 +16,7 @@ public class ComputerInfo : MonoBehaviour
     {
         string machine = SystemInfo.deviceName;
         machineText.text = machine;
-        osText.text = Environment.OSVersion.ToString();
+        osText.text = Environment.OSVersion.ToString()+ " " + SystemInfo.operatingSystem;
 
         foreach (var field in textFields){
             field.text = field.text.Replace("{machine}", machine);

@@ -592,18 +592,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 26115856}
   m_CullTransparentMesh: 1
---- !u!114 &28475290
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9163024720923691682}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 08e452a93072ea34581f8c671423739b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &29197126
 GameObject:
   m_ObjectHideFlags: 0
@@ -5182,18 +5170,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 654467545}
   m_CullTransparentMesh: 1
---- !u!114 &656219368
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7665925763670357135}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 08e452a93072ea34581f8c671423739b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &682762529
 GameObject:
   m_ObjectHideFlags: 0
@@ -8123,18 +8099,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1176865628}
   m_CullTransparentMesh: 1
---- !u!114 &1177155790
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2340856482802174911}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 08e452a93072ea34581f8c671423739b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1200443754
 GameObject:
   m_ObjectHideFlags: 0
@@ -8261,18 +8225,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rollPlayerHealth: {fileID: 1475410851}
---- !u!114 &1205121950
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7412875483905482617}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 08e452a93072ea34581f8c671423739b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1206152542
 GameObject:
   m_ObjectHideFlags: 0
@@ -9436,18 +9388,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2500b16cf86630845ad5b0533c1cc115, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1412049681
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3026054088870125454}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 08e452a93072ea34581f8c671423739b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1443674696
@@ -11956,18 +11896,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1793560431}
   m_CullTransparentMesh: 1
---- !u!114 &1802789695
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 428544541622073465}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 08e452a93072ea34581f8c671423739b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &1813223456
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19250,7 +19178,7 @@ GameObject:
   - component: {fileID: 214502791400625586}
   - component: {fileID: 5200164098432937200}
   - component: {fileID: 6092898185143780534}
-  - component: {fileID: 1802789695}
+  - component: {fileID: 6092898185143780535}
   m_Layer: 5
   m_Name: objective
   m_TagString: Untagged
@@ -20475,7 +20403,7 @@ GameObject:
   - component: {fileID: 4262078909320950930}
   - component: {fileID: 2568019651672892786}
   - component: {fileID: 6698539713673576583}
-  - component: {fileID: 1177155790}
+  - component: {fileID: 6698539713673576584}
   m_Layer: 5
   m_Name: wintext
   m_TagString: Untagged
@@ -20696,7 +20624,7 @@ GameObject:
   - component: {fileID: 4371650753870787208}
   - component: {fileID: 1412049678}
   - component: {fileID: 1412049680}
-  - component: {fileID: 1412049681}
+  - component: {fileID: 4371650753870787209}
   m_Layer: 0
   m_Name: healthbar
   m_TagString: Untagged
@@ -21229,6 +21157,18 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &4371650753870787209
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3026054088870125454}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08e452a93072ea34581f8c671423739b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DragandDrop
 --- !u!224 &4407748673572325159
 RectTransform:
   m_ObjectHideFlags: 0
@@ -21988,6 +21928,18 @@ MonoBehaviour:
     y: 0
     width: 1
     height: 1
+--- !u!114 &6092898185143780535
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 428544541622073465}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08e452a93072ea34581f8c671423739b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DragandDrop
 --- !u!222 &6108499412099766903
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -22216,6 +22168,18 @@ MonoBehaviour:
     y: 0
     width: 1
     height: 1
+--- !u!114 &6698539713673576584
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2340856482802174911}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08e452a93072ea34581f8c671423739b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DragandDrop
 --- !u!224 &6749892261355727562
 RectTransform:
   m_ObjectHideFlags: 0
@@ -22456,7 +22420,7 @@ GameObject:
   - component: {fileID: 4407748673572325159}
   - component: {fileID: 130800393171143321}
   - component: {fileID: 9188793409919332938}
-  - component: {fileID: 1205121950}
+  - component: {fileID: 9188793409919332939}
   m_Layer: 5
   m_Name: time
   m_TagString: Untagged
@@ -22529,7 +22493,7 @@ GameObject:
   - component: {fileID: 1919807269008819681}
   - component: {fileID: 8946826987116582390}
   - component: {fileID: 982551524764026609}
-  - component: {fileID: 656219368}
+  - component: {fileID: 8946826987116582391}
   m_Layer: 5
   m_Name: mini map
   m_TagString: Untagged
@@ -23006,6 +22970,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7665925763670357135}
   m_CullTransparentMesh: 1
+--- !u!114 &8946826987116582391
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7665925763670357135}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08e452a93072ea34581f8c671423739b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DragandDrop
 --- !u!222 &8977781777495288505
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -23061,7 +23037,7 @@ GameObject:
   - component: {fileID: 4027179917378979609}
   - component: {fileID: 6108499412099766903}
   - component: {fileID: 7962523974198733398}
-  - component: {fileID: 28475290}
+  - component: {fileID: 9163024720923691683}
   m_Layer: 5
   m_Name: losetextreal
   m_TagString: Untagged
@@ -23069,6 +23045,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &9163024720923691683
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9163024720923691682}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08e452a93072ea34581f8c671423739b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DragandDrop
 --- !u!114 &9188793409919332938
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23096,6 +23084,18 @@ MonoBehaviour:
     y: 0
     width: 1
     height: 1
+--- !u!114 &9188793409919332939
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7412875483905482617}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08e452a93072ea34581f8c671423739b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DragandDrop
 --- !u!114 &9197316022752850190
 MonoBehaviour:
   m_ObjectHideFlags: 0

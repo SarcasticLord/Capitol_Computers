@@ -120,6 +120,12 @@ public class SceneManagerScript : MonoBehaviour
         SceneManager.LoadScene("GamesStore");
     }
 
+    public void OpenMail() // opens mail Minigame 
+    {
+        SaveState.lastScene = "Mail";
+        SceneManager.LoadScene("MailGame");
+    }
+
     public void CriticalError() // critical error debug
     {
         SaveState.lastScene = "CritError";

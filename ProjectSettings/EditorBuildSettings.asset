@@ -35,6 +35,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ExtraGames/GamesStore.unity
     guid: a8a67972d072f4b8f956a38e0dabf908
+  - enabled: 1
+    path: Assets/Scenes/MailGame.unity
+    guid: 9ab7d2defe9f84976937c568a519a991
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0

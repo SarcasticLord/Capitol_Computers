@@ -55,8 +55,8 @@ public class ObjectiveTasks : MonoBehaviour
 
             if (hit.transform.CompareTag("trash"))
             {
-                GameManager.instance.trashCount++;  // when the raycast hits it updates the trash counter
-                GameManager.instance.TrashObjective();
+                BBGameManager.instance.trashCount++;  // when the raycast hits it updates the trash counter
+                BBGameManager.instance.TrashObjective();
 
                 Destroy(hit.collider.gameObject);
             }

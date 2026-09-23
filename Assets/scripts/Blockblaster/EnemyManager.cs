@@ -39,8 +39,8 @@ public class EnemyManager : MonoBehaviour
         if (health <= 0)
         {
             Destroy(gameObject);
-            GameManager.instance.netflixCount++;  // after killing an employee get a point      you need at least 20-50 to win
-            GameManager.instance.MetflicksObjective();
+            BBGameManager.instance.netflixCount++;  // after killing an employee get a point      you need at least 20-50 to win
+            BBGameManager.instance.MetflicksObjective();
         }
 
         if (collision.CompareTag("Player")) // does player damage

@@ -38,8 +38,8 @@ public class ShelfSwapping : MonoBehaviour
 
                 if (newShelfIndex == 5) // when the full shelf is done it adds a point to the shelf counter 
                 {
-                    GameManager.instance.stockCount++; 
-                    GameManager.instance.StockObjective();
+                    BBGameManager.instance.stockCount++; 
+                    BBGameManager.instance.StockObjective();
                 }
 
                 

@@ -42,9 +42,9 @@ public class ObjectiveUI : MonoBehaviour
     void Update()
     {
         
-        stockedText.text = "Stock the shelves: " + GameManager.instance.stockCount.ToString() + "/10";
-        netflixText.text = "Metflicks employees stopped: " + GameManager.instance.netflixCount.ToString();
-        trashText.text = "Trash picked up: " + GameManager.instance.trashCount.ToString() + "/20";
+        stockedText.text = "Stock the shelves: " + BBGameManager.instance.stockCount.ToString() + "/10";
+        netflixText.text = "Metflicks employees stopped: " + BBGameManager.instance.netflixCount.ToString();
+        trashText.text = "Trash picked up: " + BBGameManager.instance.trashCount.ToString() + "/20";
 
     }
 

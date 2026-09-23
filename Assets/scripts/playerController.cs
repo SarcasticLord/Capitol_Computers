@@ -172,10 +172,10 @@ public class PlayerController : MonoBehaviour
 
     void Die() // this should be the thing that restarts the scene and stops the timer 
     {
-        GameManager.instance.DecreaseLives();
-        Debug.Log("lives: " + GameManager.instance.GetLives());
+        BBGameManager.instance.DecreaseLives();
+        Debug.Log("lives: " + BBGameManager.instance.GetLives());
         SceneManager.LoadScene(1);
-        GameManager.instance.ResetScores();
+        BBGameManager.instance.ResetScores();
 
         if (ObjectiveUI.instance.timer != null)
         {
@@ -184,10 +184,10 @@ public class PlayerController : MonoBehaviour
 
         Destroy (gameObject); // destorys the player, player controller does the rest
 
-        if (GameManager.instance.lives <= 0)
+        if (BBGameManager.instance.lives <= 0)
         {
             SceneManagerScript.instance.ToTitle();
-            GameManager.instance.ResetGame();
+            BBGameManager.instance.ResetGame();
         }
             
     }

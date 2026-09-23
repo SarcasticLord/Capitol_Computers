@@ -1,3 +1,5 @@
+// this is the game manager for blockblaster
+
 using System.Collections;
 using System.Collections.Generic;
 using System.IO;
@@ -6,11 +8,11 @@ using UnityEngine;
 using UnityEngine.Analytics;
 using TMPro;
 
-public class GameManager : MonoBehaviour
+public class BBGameManager : MonoBehaviour
 {
     public int lives = 3;
 
-   public static GameManager instance = null;
+   public static BBGameManager instance = null;
 
     void Awake()
     {

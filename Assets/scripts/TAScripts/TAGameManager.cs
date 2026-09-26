@@ -38,7 +38,7 @@ public class TAGameManager : MonoBehaviour
         {
             BinaryFormatter bf = new BinaryFormatter();
             FileStream aFile = File.Open(Application.persistentDataPath + "/Terminal", FileMode.Open);
-            TASaveState gameState = (TASaveState)bf.Deserialize(aFile);
+            SaveState gameState = (SaveState)bf.Deserialize(aFile);
             aFile.Close();
 
             FolderRoom afolderRoom = TANavigationManager.instance.GetFolderByName(gameState.currentFolder);
@@ -52,7 +52,7 @@ public class TAGameManager : MonoBehaviour
 
     public void Save()
     {
-        TASaveState gameState = new TASaveState();
+        SaveState gameState = new SaveState();
         gameState.currentFolder = TANavigationManager.instance.currentFolder.name;
         gameState.inventory = inventory;
 

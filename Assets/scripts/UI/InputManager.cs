@@ -70,33 +70,33 @@ public class InputManager : MonoBehaviour
                     switch (parts[0])
                     {
                         case "0":
-                            SceneManager.LoadScene(0);
-                            Updateoutput("startgame");
+                            SceneManager.LoadScene("TitleScene");
+                            Updateoutput("RESTARTING_BOOTLOADER");
                             break;
 
                         case "9":
-                            SceneManager.LoadScene(3);
+                            SceneManager.LoadScene("BlockBlasterMain");
                             Updateoutput("STARTING_BLOCKBUSTER_SIMULATOR");
                             break;
                         
                         case "8":
-                            SceneManager.LoadScene(4);
+                            SceneManager.LoadScene("rollamaze");
                             Updateoutput("STARTING_ROLLAMAZE_MINIGAME");
                             break;
 
                         case "3":
-                            SceneManager.LoadScene(6);
-                            Updateoutput("ERROR: EXIT_BLOCKBUSTER_SIMULATOR");
+                            SceneManager.LoadScene("ExitScene");
+                            Updateoutput("ERROR: EXIT_CAPITOL_COMPUTERS");
                             break;
 
                         case "2":
-                            SceneManager.LoadScene(5);
-                            Updateoutput("BLOCKBUSTER_CREDITS_SCREEN");
+                            SceneManager.LoadScene("Credits");
+                            Updateoutput("CAPITOL_COMPUTERS_CREDITS");
                             break;
 
                         case "1":
-                            SceneManager.LoadScene(1);
-                            Updateoutput("BOOTING_TO_DOORS");
+                            SceneManager.LoadScene("OSloading");
+                            Updateoutput("BOOTING_CAPITOL_COMPUTERS");
                             break;
                     }
                 }

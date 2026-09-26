@@ -37,7 +37,7 @@ public class OSLoadingController : MonoBehaviour
 
             yield return new WaitForSeconds(delay);
         }
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene("CapitolWindows");
     }
 
 

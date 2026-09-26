@@ -171,7 +171,7 @@ public class SceneManagerScript : MonoBehaviour
     public void ToTitle()
     {
         SaveState.lastScene = "Title";
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene("TitleScene");
     }
 }
 

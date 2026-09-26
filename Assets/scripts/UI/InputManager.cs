@@ -74,19 +74,9 @@ public class InputManager : MonoBehaviour
                             Updateoutput("RESTARTING_BOOTLOADER");
                             break;
 
-                        case "9":
-                            SceneManager.LoadScene("BlockBlasterMain");
-                            Updateoutput("STARTING_BLOCKBUSTER_SIMULATOR");
-                            break;
-                        
-                        case "8":
-                            SceneManager.LoadScene("rollamaze");
-                            Updateoutput("STARTING_ROLLAMAZE_MINIGAME");
-                            break;
-
-                        case "3":
-                            SceneManager.LoadScene("ExitScene");
-                            Updateoutput("ERROR: EXIT_CAPITOL_COMPUTERS");
+                        case "1":
+                            SceneManager.LoadScene("OSloading");
+                            Updateoutput("BOOTING_CAPITOL_COMPUTERS");
                             break;
 
                         case "2":
@@ -94,10 +84,21 @@ public class InputManager : MonoBehaviour
                             Updateoutput("CAPITOL_COMPUTERS_CREDITS");
                             break;
 
-                        case "1":
-                            SceneManager.LoadScene("OSloading");
-                            Updateoutput("BOOTING_CAPITOL_COMPUTERS");
+                        case "3":
+                            SceneManager.LoadScene("ExitScene");
+                            Updateoutput("ERROR: EXIT_CAPITOL_COMPUTERS");
+                            break;  
+
+                        case "9":
+                            SceneManager.LoadScene("GamesStore");
+                            Updateoutput("STARTING_STORE_DEBUG");
                             break;
+
+                        
+
+                        
+
+                        
                     }
                 }
                 else

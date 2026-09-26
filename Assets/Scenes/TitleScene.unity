@@ -294,7 +294,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -185, y: -45.8}
+  m_AnchoredPosition: {x: -268, y: -45.8}
   m_SizeDelta: {x: 334.8062, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &123182378
@@ -2112,8 +2112,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 1007, y: 322}
-  m_SizeDelta: {x: 710.8599, y: 49.29999}
+  m_AnchoredPosition: {x: 1121.5204, y: 322}
+  m_SizeDelta: {x: 471.7794, y: 49.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1140611003
 MonoBehaviour:
@@ -2135,7 +2135,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: // debug 8=RollaMaze, 9=BlockBlaster
+  m_text: // debug 9=store/games
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 241c6acceca8b844baad6cbcf60cefc7, type: 2}
   m_sharedMaterial: {fileID: -699112959996641730, guid: 241c6acceca8b844baad6cbcf60cefc7, type: 2}
@@ -2201,7 +2201,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -14.589844, y: 0, z: 2.2338562, w: 0}
+  m_margin: {x: -0.13513184, y: 0, z: -0.27615356, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0

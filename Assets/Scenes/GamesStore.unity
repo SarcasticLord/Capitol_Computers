@@ -397,6 +397,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 5684473742221595112}
     m_Modifications:
+    - target: {fileID: 4307623821023687016, guid: ed0193051f5af4083ba95cc46a9ca22b, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1922940512}
+    - target: {fileID: 4307623821023687016, guid: ed0193051f5af4083ba95cc46a9ca22b, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Exit
+      objectReference: {fileID: 0}
+    - target: {fileID: 4307623821023687016, guid: ed0193051f5af4083ba95cc46a9ca22b, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SceneManagerScript, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 4310347721064579586, guid: ed0193051f5af4083ba95cc46a9ca22b, type: 3}
       propertyPath: m_LocalPosition.x
       value: -326
@@ -3079,6 +3091,7 @@ GameObject:
   - component: {fileID: 1922940510}
   - component: {fileID: 1922940509}
   - component: {fileID: 1922940511}
+  - component: {fileID: 1922940512}
   m_Layer: 0
   m_Name: SceneManager
   m_TagString: Untagged
@@ -3131,6 +3144,22 @@ MonoBehaviour:
   windowList:
   - id: StartMenu
     window: {fileID: 245127716}
+--- !u!114 &1922940512
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1922940508}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4db0a25c662899942ba78cfdc7846b45, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SceneManagerScript
+  textObjects: []
+  directions: {fileID: 0}
+  flashingText: []
+  clickAnywhere: {fileID: 0}
 --- !u!1 &1996486604
 GameObject:
   m_ObjectHideFlags: 0

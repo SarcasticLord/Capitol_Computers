@@ -1211,10 +1211,6 @@ MonoBehaviour:
   - '[     OK     ]     Finalizing Startup Tasks'
   - '[     OK     ]     System initialization complete'
   - "[     OK     ]     V\xE4lkommen"
-  - '[ CRITICAL ]  FILE_SYSTEM_CRITICAL_ERROR'
-  - '[ CRITICAL ]  SYSTEM_SECURITY_CRITICAL_ERROR'
-  - '[ CRITICAL ]  SYSTEM_INSTABILITY: 9999999'
-  - '[ CRITICAL ]  RUTROH_PROTOCALL_FAILED'
 --- !u!1 &1552381905
 GameObject:
   m_ObjectHideFlags: 0

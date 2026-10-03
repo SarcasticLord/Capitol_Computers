@@ -209,7 +209,7 @@ GameObject:
   - component: {fileID: 197897883}
   - component: {fileID: 197897882}
   m_Layer: 5
-  m_Name: error (1)
+  m_Name: os
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1237,7 +1237,7 @@ GameObject:
   - component: {fileID: 1234962252}
   - component: {fileID: 1234962251}
   m_Layer: 5
-  m_Name: blockbuster
+  m_Name: Capitol Computers
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

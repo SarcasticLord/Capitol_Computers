@@ -2649,6 +2649,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1741461891}
     m_Modifications:
+    - target: {fileID: 1084316046614396801, guid: ed0193051f5af4083ba95cc46a9ca22b, type: 3}
+      propertyPath: m_Texture
+      value: 
+      objectReference: {fileID: 2800000, guid: 9e76a2a6f5b6d481383b600dfd307191, type: 3}
+    - target: {fileID: 3118807134848687158, guid: ed0193051f5af4083ba95cc46a9ca22b, type: 3}
+      propertyPath: m_Texture
+      value: 
+      objectReference: {fileID: 2800000, guid: 3d5effc444f884a6782bc20925ee25ed, type: 3}
+    - target: {fileID: 3552237978793110901, guid: ed0193051f5af4083ba95cc46a9ca22b, type: 3}
+      propertyPath: m_Texture
+      value: 
+      objectReference: {fileID: 2800000, guid: cede5f970e00d49e082028da99ee6fa6, type: 3}
     - target: {fileID: 4307623821023687016, guid: ed0193051f5af4083ba95cc46a9ca22b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -2701,10 +2713,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6074301411442320291, guid: ed0193051f5af4083ba95cc46a9ca22b, type: 3}
+      propertyPath: m_Texture
+      value: 
+      objectReference: {fileID: 2800000, guid: 2148f8cced1034912a0cc50e39ca0dc1, type: 3}
     - target: {fileID: 7991656602255239615, guid: ed0193051f5af4083ba95cc46a9ca22b, type: 3}
       propertyPath: m_Name
       value: StartMenu
       objectReference: {fileID: 0}
+    - target: {fileID: 9015123338129949285, guid: ed0193051f5af4083ba95cc46a9ca22b, type: 3}
+      propertyPath: m_Texture
+      value: 
+      objectReference: {fileID: 2800000, guid: 647ed7b6a64df44018decab39ce18288, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3999,14 +4019,14 @@ RectTransform:
   m_GameObject: {fileID: 1320781418}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.41, y: 0.41, z: 0.41}
+  m_LocalScale: {x: 0.3810089, y: 0.3810089, z: 0.3810089}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 2113527068}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -140.79816, y: -0.5601196}
+  m_AnchoredPosition: {x: -144.6, y: -1.9}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1320781420
@@ -4029,7 +4049,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 2800000, guid: 0b3eb87b0cfc642a0ac2aa2a0dd53219, type: 3}
+  m_Texture: {fileID: 2800000, guid: 1df6062e7a89349308c30d9e169ca97b, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -5303,7 +5323,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 2800000, guid: be857a6c0d7bb4d829c0592a5c29dcb5, type: 3}
+  m_Texture: {fileID: 2800000, guid: cede5f970e00d49e082028da99ee6fa6, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -6048,8 +6068,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 28.832764, y: -0.5601196}
-  m_SizeDelta: {x: 286.6861, y: 40.814}
+  m_AnchoredPosition: {x: 24.6288, y: -0.5601196}
+  m_SizeDelta: {x: 295.0939, y: 40.814}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2116441508
 MonoBehaviour:

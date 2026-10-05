@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f40a150e57a6fd44f8b5fd96d0f8ad01, type: 3}
+  m_Name: system
+  m_EditorClassIdentifier: Assembly-CSharp::FolderRoom
+  folderName: system
+  Description: "\n/machine/system/\nthese are all the important system files\n "
+  exits:
+  - {fileID: 11400000, guid: 096f71f9f86424e989fd3717a43e15bd, type: 2}
+  - {fileID: 11400000, guid: 46794c811cb364aadb61fdc0eb88a086, type: 2}
+  items: []

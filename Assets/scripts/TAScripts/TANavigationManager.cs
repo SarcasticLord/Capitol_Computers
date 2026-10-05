@@ -91,7 +91,7 @@ public class TANavigationManager : MonoBehaviour
             if (TAGameManager.instance.inventory.Contains("pubKey") || !exit.isLocked)
             {
                 currentFolder = exitFolder[input];
-                TAInputManager.instance.UpdateTerminal(" Opening " + input);
+                TAInputManager.instance.UpdateTerminal("\nOpening " + input);
                 Unpack();
                 return true;
             }

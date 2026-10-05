@@ -34,13 +34,13 @@ public class TAMusicToggle : MonoBehaviour
         if (music)
         {
             toggle.isOn = true; // check the box
-//            bgmSource.Play();
+            //bgmSource.Play();
             TAInputManager.instance.UpdateTerminal("Turned music on.");
         }
         else
         {   
             toggle.isOn = false; // uncheck the box
-            bgmSource.Stop();
+            //bgmSource.Stop();
             TAInputManager.instance.UpdateTerminal("Turned music off.");
         }
     }

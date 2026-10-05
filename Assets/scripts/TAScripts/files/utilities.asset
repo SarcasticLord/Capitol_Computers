@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f40a150e57a6fd44f8b5fd96d0f8ad01, type: 3}
+  m_Name: utilities
+  m_EditorClassIdentifier: Assembly-CSharp::FolderRoom
+  folderName: utilities
+  Description: '
+
+    /machine/system/users/applications/utilities/
+
+    where all
+    the important system utilities are
+
+'
+  exits:
+  - {fileID: 11400000, guid: b253331038f3c4de3b9ffc8b3409ac14, type: 2}
+  items: []

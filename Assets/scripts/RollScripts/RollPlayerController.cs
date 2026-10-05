@@ -55,6 +55,13 @@ public class RollPlayerController : MonoBehaviour
 
             if (timer != null)
             {
+                float finalTime = timer.GetTime();
+
+                if (Statistics.instance.stats.RollaGoose.RollFastestTime == 0 || finalTime < Statistics.instance.stats.RollaGoose.RollFastestTime)
+                {
+                    Statistics.instance.stats.RollaGoose.RollFastestTime = finalTime;
+                }
+                Statistics.instance.SaveStats();
                 timer.StopTimer();
             }
 

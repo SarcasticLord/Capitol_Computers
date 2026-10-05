@@ -2,7 +2,6 @@ using UnityEngine;
 using System.IO;
 
 [System.Serializable]
-
 public class BBstats
 {
     // BlockBlaster
@@ -12,10 +11,29 @@ public class BBstats
 }
 
 [System.Serializable]
+public class RollStats
+{
+    // RollaGoose
+    public float RollFastestTime = 0;
+}
+
+[System.Serializable]
+public class TAstats
+{
+    // Terminal
+    public float TAruns = 0;
+
+}
+
+[System.Serializable]
 
 public class StatisticsData
 {
-    public BBstats BB = new BBstats();
+    public BBstats BlockBlaster = new BBstats();
+    public RollStats RollaGoose = new RollStats();
+    public RollStats Terminal = new TAstats();
+
+
 }
 
 public class Statistics : MonoBehaviour

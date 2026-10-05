@@ -116,7 +116,7 @@ public class SceneManagerScript : MonoBehaviour
 
     public void OpenStore() // opens store
     {
-        //SaveState.lastScene = "RollaMaze";
+        SaveState.lastScene = "RollaMaze";
         SceneManager.LoadScene("GamesStore");
     }
 

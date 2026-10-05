@@ -31,7 +31,7 @@ public class StatisticsData
 {
     public BBstats BlockBlaster = new BBstats();
     public RollStats RollaGoose = new RollStats();
-    public RollStats Terminal = new TAstats();
+    public TAstats Terminal = new TAstats();
 
 
 }

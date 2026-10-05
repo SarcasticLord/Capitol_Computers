@@ -1,7 +1,7 @@
 using UnityEditor.Experimental;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "exit", menuName = "Text/exit")]
+[CreateAssetMenu(fileName = "exit", menuName = "RoomsExits/exit")]
 public class Exit : ScriptableObject
 {
     public string folderName;

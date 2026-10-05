@@ -20,7 +20,7 @@ public class BBGameManager : MonoBehaviour
         {
             instance = this;
             DontDestroyOnLoad(gameObject);
-            Debug.Log("dont destroy");
+            Debug.Log("dont destroy blockblaster");
         }
         else if (instance != this)
         {
@@ -42,7 +42,25 @@ public class BBGameManager : MonoBehaviour
     {
         if (stockCount >= 10 && netflixCount >= 50 && trashCount >= 20) 
         {
-            
+            float finalTime = ObjectiveUI.instance.timer.GetTime();
+
+            if (Statistics.instance.stats.BB.BBfastestTime == 0 || finalTime < Statistics.instance.stats.BB.BBfastestTime)
+            {
+                Statistics.instance.stats.BB.BBfastestTime = finalTime;
+            }
+
+            if (netflixCount > Statistics.instance.stats.BB.BBmostEnemies)
+            {
+                Statistics.instance.stats.BB.BBmostEnemies = netflixCount;
+            }
+
+            if (trashCount > Statistics.instance.stats.BB.BBmostTrash)
+            {
+                Statistics.instance.stats.BB.BBmostTrash = trashCount;
+            }
+
+            Statistics.instance.SaveStats();
+
             ObjectiveUI.instance.winTextObject.SetActive(true);
             SceneManagerScript.instance.Invoke("ToTitle", 5f);
 
@@ -80,8 +98,6 @@ public class BBGameManager : MonoBehaviour
         
     }
 
-    
-
     public void DecreaseLives()
     {
         lives--;
@@ -96,6 +112,4 @@ public class BBGameManager : MonoBehaviour
     {
         lives = 3;
     }
-
-    
 }

@@ -2,7 +2,7 @@ using NUnit.Framework;
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "room", menuName = "Text/room")]
+[CreateAssetMenu(fileName = "room", menuName = "RoomsExits/room")]
 public class FolderRoom : ScriptableObject
 {
     public string folderName;

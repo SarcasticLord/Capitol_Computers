@@ -90,7 +90,7 @@ public class TAInputManager : MonoBehaviour
                     else if (parts[0] == "exit")
                     {
                         SceneManager.LoadScene(2);
-                        UpdateTerminal("Closing terminal....");
+                        UpdateTerminal("Closing terminal...");
                     }
                         
 

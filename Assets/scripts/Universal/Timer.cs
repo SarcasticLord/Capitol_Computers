@@ -9,10 +9,6 @@ public class Timer : MonoBehaviour
     [SerializeField] TextMeshProUGUI timerText;
     float passedTime;
     bool isRunning = true;
-    void Start()
-    {
-        
-    }
 
     // Update is called once per frame
     void Update()
@@ -24,8 +20,14 @@ public class Timer : MonoBehaviour
 
         timerText.text = string.Format("{0:00}:{1:00}", minutes, seconds);
     }
+
     public void StopTimer()
     {
         isRunning = false;
+    }
+    
+    public float GetTime()
+    {
+        return passedTime;
     }
 }

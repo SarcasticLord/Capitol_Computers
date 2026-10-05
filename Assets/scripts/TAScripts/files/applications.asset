@@ -13,9 +13,10 @@ MonoBehaviour:
   m_Name: applications
   m_EditorClassIdentifier: Assembly-CSharp::FolderRoom
   folderName: applications
-  Description: "\n/machine/system/users/applications\nThe applications folder where
-    all the apps live \n"
+  Description: "\n/machine/system/users/player/applications\nThe applications folder
+    where all the apps live \n"
   exits:
-  - {fileID: 11400000, guid: 46794c811cb364aadb61fdc0eb88a086, type: 2}
+  - {fileID: 11400000, guid: 9a8f31944908d4afcb4ab98b81b0ae42, type: 2}
+  - {fileID: 11400000, guid: 1f6f08ccda9d746d49cc0220609eab4a, type: 2}
   - {fileID: 11400000, guid: 5f759fa8baa0144c59ee97c28984dae8, type: 2}
   items: []

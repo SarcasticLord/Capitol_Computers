@@ -10,18 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f40a150e57a6fd44f8b5fd96d0f8ad01, type: 3}
-  m_Name: utilities
+  m_Name: player
   m_EditorClassIdentifier: Assembly-CSharp::FolderRoom
-  folderName: utilities
-  Description: '
-
-    /machine/system/users/player/applications/utilities/
-
-    where
-    all the important system utilities are
+  folderName: player
+  Description: '/machine/system/users/player
 
 '
   exits:
+  - {fileID: 11400000, guid: 46794c811cb364aadb61fdc0eb88a086, type: 2}
   - {fileID: 11400000, guid: b253331038f3c4de3b9ffc8b3409ac14, type: 2}
-  - {fileID: 11400000, guid: 615246a8b903b46158f183d87ab763f6, type: 2}
   items: []

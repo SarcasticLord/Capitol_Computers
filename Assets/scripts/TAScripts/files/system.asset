@@ -17,4 +17,5 @@ MonoBehaviour:
   exits:
   - {fileID: 11400000, guid: 096f71f9f86424e989fd3717a43e15bd, type: 2}
   - {fileID: 11400000, guid: 46794c811cb364aadb61fdc0eb88a086, type: 2}
-  items: []
+  items:
+  - systemData

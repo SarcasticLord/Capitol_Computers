@@ -3374,12 +3374,12 @@ MonoBehaviour:
   - {fileID: 11400000, guid: d7985adb81e4f4a4fa777c9420e571e9, type: 2}
   - {fileID: 11400000, guid: e4b1308ac48eb455fb254e7a0279cc8a, type: 2}
   - {fileID: 11400000, guid: 82e9fc440a7b542faa5cafdf109cea1b, type: 2}
+  - {fileID: 11400000, guid: 65ce6e20949f74141a84adce9e69de12, type: 2}
   - {fileID: 11400000, guid: 9295315cad9ce435d88848c9679a1f39, type: 2}
+  - {fileID: 11400000, guid: ee673b1165ae04961a8d5fc7b6af40bf, type: 2}
   - {fileID: 11400000, guid: b51c18c4adcff43ea8e1663434c0825c, type: 2}
-  - {fileID: 11400000, guid: dc8dcdb34d2ad2b48844f517d5d3e96a, type: 2}
-  - {fileID: 11400000, guid: 01a01e6d563d3f947ba65d8949115d74, type: 2}
-  - {fileID: 11400000, guid: 64b367cc3fded8540b7c8b208b7cb419, type: 2}
-  - {fileID: 11400000, guid: c45991d744e799b48a394957398bbf67, type: 2}
+  - {fileID: 11400000, guid: 491db248b204a4d9a8d7aa743e335c72, type: 2}
+  - {fileID: 11400000, guid: 99b651a078ae946aaab73539642cc718, type: 2}
   - {fileID: 11400000, guid: 9498a018f38d2e04cb05e3e44e9d7507, type: 2}
 --- !u!1 &1009695767
 GameObject:
@@ -5296,9 +5296,21 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "commands:\t\tshows this list\nopen: \t\topens a file\nsave: \t\tsaves
-    the game\ninventory:\t\tsee collected items\ndownload: \t\tcollect an item\nrestart:
-    \t\trestarts the game\nboot:"
+  m_text: 'commands: hows this list
+
+    open: opens a file
+
+    save: saves the
+    game
+
+    inventory: see collected items
+
+    download: collect an item
+
+    restart:
+    restarts the game
+
+    boot:'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 241c6acceca8b844baad6cbcf60cefc7, type: 2}
   m_sharedMaterial: {fileID: -699112959996641730, guid: 241c6acceca8b844baad6cbcf60cefc7, type: 2}
@@ -5331,7 +5343,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 1
+  m_fontStyle: 0
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 256
   m_textAlignment: 65535
@@ -7519,9 +7531,9 @@ RectTransform:
   - {fileID: 8710120960043741706}
   m_Father: {fileID: 7011985597647682215}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 323.05002, y: 0.02}
+  m_AnchorMin: {x: 1, y: 0.5}
+  m_AnchorMax: {x: 1, y: 0.5}
+  m_AnchoredPosition: {x: -8.949982, y: 0.02}
   m_SizeDelta: {x: 23, y: 23}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &8535310651024398736

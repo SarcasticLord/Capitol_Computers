@@ -2721,6 +2721,34 @@ PrefabInstance:
       propertyPath: m_Name
       value: StartMenu
       objectReference: {fileID: 0}
+    - target: {fileID: 8374254805715439987, guid: ed0193051f5af4083ba95cc46a9ca22b, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8374254805715439987, guid: ed0193051f5af4083ba95cc46a9ca22b, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8374254805715439987, guid: ed0193051f5af4083ba95cc46a9ca22b, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8374254805715439987, guid: ed0193051f5af4083ba95cc46a9ca22b, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8374254805715439987, guid: ed0193051f5af4083ba95cc46a9ca22b, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 47.997803
+      objectReference: {fileID: 0}
+    - target: {fileID: 8374254805715439987, guid: ed0193051f5af4083ba95cc46a9ca22b, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 24.0768
+      objectReference: {fileID: 0}
+    - target: {fileID: 8374254805715439987, guid: ed0193051f5af4083ba95cc46a9ca22b, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 317.9516
+      objectReference: {fileID: 0}
     - target: {fileID: 9015123338129949285, guid: ed0193051f5af4083ba95cc46a9ca22b, type: 3}
       propertyPath: m_Texture
       value: 
@@ -3635,9 +3663,9 @@ RectTransform:
   - {fileID: 802287862}
   m_Father: {fileID: 919157753729402947}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1720, y: -900.5}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 3898, y: -1960.5}
   m_SizeDelta: {x: 69.37378, y: 20}
   m_Pivot: {x: 1, y: 1}
 --- !u!114 &1163948372
@@ -4172,10 +4200,10 @@ RectTransform:
   - {fileID: 1218568195}
   m_Father: {fileID: 919157753729402947}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 1}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -373, y: -1719}
-  m_SizeDelta: {x: 101.5763, y: 20}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 3983, y: -1719}
+  m_SizeDelta: {x: 101.57617, y: 20}
   m_Pivot: {x: 1, y: 1}
 --- !u!114 &1324813111
 MonoBehaviour:
@@ -4239,7 +4267,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   background: {fileID: 603948181}
   storyText: {fileID: 654674382}
-  inputText: {fileID: 313175637}
+  inputText: {fileID: 318675142}
   placeHolderText: {fileID: 318675142}
   toggleText: {fileID: 1218568196}
   musicText: {fileID: 802287863}

@@ -38,6 +38,8 @@ public class StatisticsData
 
 public class Statistics : MonoBehaviour
 {
+
+    
     public static Statistics instance = null;
     public StatisticsData stats = new StatisticsData();
 

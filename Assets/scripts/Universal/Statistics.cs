@@ -5,9 +5,9 @@ using System.IO;
 public class BBstats
 {
     // BlockBlaster
-    public float BBfastestTime = 0;
-    public int BBmostEnemies = 0;
-    public int BBmostTrash = 0;
+    public float BlockFastestTime = 0;
+    public int BlockMostEnemies = 0;
+    public int BlockTrashCollected = 0;
 }
 
 [System.Serializable]
@@ -58,7 +58,7 @@ public class Statistics : MonoBehaviour
             Destroy(gameObject);
         }
         
-        savePath = Application.persistentDataPath + "/Statistics.json";
+        savePath = Path.Combine(FilePaths.GetCapitolFolder()) + "/Statistics.json";
 
         LoadStats();
     }

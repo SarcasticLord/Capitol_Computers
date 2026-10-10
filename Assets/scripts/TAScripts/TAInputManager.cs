@@ -81,16 +81,22 @@ public class TAInputManager : MonoBehaviour
                         if (TANavigationManager.instance.getItem(parts[1]))
                             TAGameManager.instance.inventory.Add(parts[1]);
                     }
-                    else if (parts[0] == "save")
+                    else if (parts[0] == "save") {
                         TAGameManager.instance.Save();
+                        UpdateTerminal("Saving game...");
+                    }
 
                     else if (parts[0] == "restart")
                         TANavigationManager.instance.GameRestart();
                     
                     else if (parts[0] == "exit")
                     {
-                        SceneManager.LoadScene(2);
+                        TAGameManager.instance.Save();
+                        
+                        UpdateTerminal("Saving game...");
                         UpdateTerminal("Closing terminal...");
+                        SceneManager.LoadScene("capitolWindows");
+
                     }
                         
 
@@ -98,7 +104,7 @@ public class TAInputManager : MonoBehaviour
                     {
                         if(TAGameManager.instance.inventory.Count == 0)
                         {
-                            UpdateTerminal("you didnt save any files.");
+                            UpdateTerminal("you didnt download any files.");
                         }
                         else
                         {

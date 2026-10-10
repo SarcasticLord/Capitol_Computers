@@ -173,6 +173,11 @@ public class SceneManagerScript : MonoBehaviour
         SaveState.lastScene = "Title";
         SceneManager.LoadScene("TitleScene");
     }
+
+    public void OpenFileStructure(){
+        Debug.Log("open folder");
+        FilePaths.OpenCapitolFolder();
+    }
 }
 
 

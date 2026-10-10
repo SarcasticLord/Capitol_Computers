@@ -16,6 +16,8 @@ public class SaveState
 
     public string currentFolder;
     public List<string> inventory;
+
+    
 }
 
     

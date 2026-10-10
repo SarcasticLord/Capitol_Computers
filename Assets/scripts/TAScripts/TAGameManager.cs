@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.IO;
-using System.Runtime.Serialization.Formatters.Binary;
 using UnityEngine;
 using UnityEngine.Analytics;
 
@@ -10,6 +9,10 @@ public class TAGameManager : MonoBehaviour
     public static TAGameManager instance;
     
     public List<string> inventory = new List<string>();
+
+    string SavePath{
+        get { return Path.Combine(FilePaths.GetCapitolFolder(), "Terminal.json"); }
+    }
 
     private void Awake()
     {
@@ -34,33 +37,42 @@ public class TAGameManager : MonoBehaviour
 
     public void Load()
     {
-        if (File.Exists(Application.persistentDataPath + "/Terminal"))
+        if (!File.Exists(SavePath)) return;
         {
-            BinaryFormatter bf = new BinaryFormatter();
-            FileStream aFile = File.Open(Application.persistentDataPath + "/Terminal", FileMode.Open);
-            SaveState gameState = (SaveState)bf.Deserialize(aFile);
-            aFile.Close();
-
+            try {
+            string json = File.ReadAllText(SavePath);
+            SaveState gameState = JsonUtility.FromJson<SaveState>(json);
             FolderRoom afolderRoom = TANavigationManager.instance.GetFolderByName(gameState.currentFolder);
             if (afolderRoom != null)
                 TANavigationManager.instance.SwitchFolders(afolderRoom);
 
             inventory = gameState.inventory;
+            }
+
+            catch (System.Exception e)
+            {
+                Debug.LogWarning("bad terminal save: ");
+            }
         }
         
     }
 
     public void Save()
     {
-        SaveState gameState = new SaveState();
-        gameState.currentFolder = TANavigationManager.instance.currentFolder.name;
-        gameState.inventory = inventory;
+        try
+        {
+            SaveState gameState = new SaveState();
+            gameState.currentFolder = TANavigationManager.instance.currentFolder.name;
+            gameState.inventory = inventory;
 
-        BinaryFormatter bf = new BinaryFormatter();
-        FileStream aFile = File.Create(Application.persistentDataPath + "/Terminal");
-        Debug.Log(Application.persistentDataPath);
-        bf.Serialize(aFile, gameState);
-        aFile.Close();
+            Directory.CreateDirectory(FilePaths.GetCapitolFolder());
+            File.WriteAllText(SavePath, JsonUtility.ToJson(gameState, true));
+            Debug.Log("game saved - from Save()");
+        }
+        catch (System.Exception e)
+        {
+            Debug.LogWarning("Couldn't save terminal: " + e.Message);
+        }
     }
 
     void ResetGame()

@@ -44,19 +44,19 @@ public class BBGameManager : MonoBehaviour
         {
             float finalTime = ObjectiveUI.instance.timer.GetTime();
 
-            if (Statistics.instance.stats.BlockBlaster.BBfastestTime == 0 || finalTime < Statistics.instance.stats.BlockBlaster.BBfastestTime)
+            if (Statistics.instance.stats.BlockBlaster.BlockFastestTime == 0 || finalTime < Statistics.instance.stats.BlockBlaster.BlockFastestTime)
             {
-                Statistics.instance.stats.BlockBlaster.BBfastestTime = finalTime;
+                Statistics.instance.stats.BlockBlaster.BlockFastestTime = finalTime;
             }
 
-            if (netflixCount > Statistics.instance.stats.BlockBlaster.BBmostEnemies)
+            if (netflixCount > Statistics.instance.stats.BlockBlaster.BlockMostEnemies)
             {
-                Statistics.instance.stats.BlockBlaster.BBmostEnemies = netflixCount;
+                Statistics.instance.stats.BlockBlaster.BlockMostEnemies = netflixCount;
             }
 
-            if (trashCount > Statistics.instance.stats.BlockBlaster.BBmostTrash)
+            if (trashCount > Statistics.instance.stats.BlockBlaster.BlockTrashCollected)
             {
-                Statistics.instance.stats.BlockBlaster.BBmostTrash = trashCount;
+                Statistics.instance.stats.BlockBlaster.BlockTrashCollected = trashCount;
             }
 
             Statistics.instance.SaveStats();

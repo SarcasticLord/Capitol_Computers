@@ -5324,21 +5324,21 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'commands: hows this list
+  m_text: 'commands: shows this list
 
-    open: opens a file
+    open: navagates through files
 
-    save: saves the
-    game
+    save:
+    saves the game
 
     inventory: see collected items
 
-    download: collect an item
+    download: collect an
+    item
 
-    restart:
-    restarts the game
+    restart: restarts the game
 
-    boot:'
+    exit: closes terminal'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 241c6acceca8b844baad6cbcf60cefc7, type: 2}
   m_sharedMaterial: {fileID: -699112959996641730, guid: 241c6acceca8b844baad6cbcf60cefc7, type: 2}

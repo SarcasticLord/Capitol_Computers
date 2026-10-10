@@ -13,9 +13,6 @@ public class TANavigationManager : MonoBehaviour
     public FolderRoom startingFolder;
     public FolderRoom currentFolder;
 
-    public delegate void Restart();
-    public event Restart onRestart;
-
     public Exit toKeyNorth;
     public List<FolderRoom> folders;
 
@@ -27,18 +24,22 @@ public class TANavigationManager : MonoBehaviour
 
     private void Awake()
     {
-        if (instance == null)
-            instance = this;
-        else
-            Destroy(gameObject);
-
-        DontDestroyOnLoad(gameObject);
+        // scene-bound on purpose, a fresh one takes over each time the scene loads
+        instance = this;
     }
     void Start()
     {
         currentFolder = startingFolder;
-        Unpack();
-        TAGameManager.instance.Load();
+ 
+        // if a save restores a folder it already prints the description,
+        // otherwise show the starting folder
+        if (!TAGameManager.instance.Load())
+            Unpack();
+    }
+
+    private void OnDestroy(){
+        if (instance == this)
+            instance = null;
     }
 
     void Unpack()
@@ -66,7 +67,7 @@ public class TANavigationManager : MonoBehaviour
 
     public void GameRestart()
     {
-        onRestart.Invoke();             // calling the restsrt event
+        TAGameManager.instance.ResetGame();             // calling the restsrt event
         currentFolder = startingFolder;     // puts the player back at the start
         toKeyNorth.isHidden = true;
        
@@ -88,7 +89,7 @@ public class TANavigationManager : MonoBehaviour
         {
             Exit exit = getExit(input);
 
-            if (TAGameManager.instance.inventory.Contains("pubKey") || !exit.isLocked)
+            if (TAGameManager.instance.inventory.Contains("pubkey") || !exit.isLocked)
             {
                 currentFolder = exitFolder[input];
                 TAInputManager.instance.UpdateTerminal("\nOpening " + input);

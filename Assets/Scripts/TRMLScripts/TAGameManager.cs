@@ -10,6 +10,8 @@ public class TAGameManager : MonoBehaviour
     
     public List<string> inventory = new List<string>();
 
+    [HideInInspector] public string terminalLog = "";
+
     string SavePath{
         get { return Path.Combine(FilePaths.GetCapitolFolder(), "Terminal.json"); }
     }
@@ -17,44 +19,41 @@ public class TAGameManager : MonoBehaviour
     private void Awake()
     {
         if (instance == null)
-            instance = this;
-        else
-            Destroy(gameObject);
-
-        DontDestroyOnLoad(gameObject);
-
-        
-    }
-    // Start is called before the first frame update
-    void Start()
-    {
-        Load();
-        TANavigationManager.instance.onRestart += ResetGame; // notice no () its not calling it its pointing to it
-        
-        
-
-    }
-
-    public void Load()
-    {
-        if (!File.Exists(SavePath)) return;
         {
-            try {
+            instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+    }
+
+    // returns true if a saved folder was restored (which also prints its description)
+    public bool Load()
+    {
+        if (!File.Exists(SavePath)) return false;
+ 
+        try
+        {
             string json = File.ReadAllText(SavePath);
             SaveState gameState = JsonUtility.FromJson<SaveState>(json);
+ 
+            inventory = gameState.inventory;
+ 
             FolderRoom afolderRoom = TANavigationManager.instance.GetFolderByName(gameState.currentFolder);
             if (afolderRoom != null)
-                TANavigationManager.instance.SwitchFolders(afolderRoom);
-
-            inventory = gameState.inventory;
-            }
-
-            catch (System.Exception e)
             {
-                Debug.LogWarning("bad terminal save: ");
+                TANavigationManager.instance.SwitchFolders(afolderRoom);
+                return true;
             }
         }
-        
+        catch (System.Exception e)
+        {
+            Debug.LogWarning("bad terminal save: " + e.Message);
+        }
+ 
+        return false;
     }
 
     public void Save()
@@ -75,7 +74,7 @@ public class TAGameManager : MonoBehaviour
         }
     }
 
-    void ResetGame()
+    public void ResetGame()
     {
         inventory.Clear();
     }

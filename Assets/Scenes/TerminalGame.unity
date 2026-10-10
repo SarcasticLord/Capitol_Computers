@@ -3110,6 +3110,82 @@ RectTransform:
   m_AnchoredPosition: {x: 396, y: -85}
   m_SizeDelta: {x: 1067.7351, y: 552.4404}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &935891032
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 935891035}
+  - component: {fileID: 935891034}
+  - component: {fileID: 935891033}
+  m_Layer: 0
+  m_Name: TRML managers
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &935891033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 935891032}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b773979ab592b1488d75b16953de08f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startingFolder: {fileID: 11400000, guid: d7985adb81e4f4a4fa777c9420e571e9, type: 2}
+  currentFolder: {fileID: 0}
+  toKeyNorth: {fileID: 11400000, guid: a9111387728769142a3559e90fba9cd9, type: 2}
+  folders:
+  - {fileID: 11400000, guid: d7985adb81e4f4a4fa777c9420e571e9, type: 2}
+  - {fileID: 11400000, guid: e4b1308ac48eb455fb254e7a0279cc8a, type: 2}
+  - {fileID: 11400000, guid: 82e9fc440a7b542faa5cafdf109cea1b, type: 2}
+  - {fileID: 11400000, guid: 65ce6e20949f74141a84adce9e69de12, type: 2}
+  - {fileID: 11400000, guid: 9295315cad9ce435d88848c9679a1f39, type: 2}
+  - {fileID: 11400000, guid: ee673b1165ae04961a8d5fc7b6af40bf, type: 2}
+  - {fileID: 11400000, guid: b51c18c4adcff43ea8e1663434c0825c, type: 2}
+  - {fileID: 11400000, guid: 491db248b204a4d9a8d7aa743e335c72, type: 2}
+  - {fileID: 11400000, guid: 99b651a078ae946aaab73539642cc718, type: 2}
+  - {fileID: 11400000, guid: 9498a018f38d2e04cb05e3e44e9d7507, type: 2}
+--- !u!114 &935891034
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 935891032}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c16aec3af3d1c74e96516c9a0fdef4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  storyText: {fileID: 654674382}
+  userInput: {fileID: 146629482}
+  inputText: {fileID: 313175637}
+  placeHolderText: {fileID: 318675142}
+  scrollRect: {fileID: 775276087}
+--- !u!4 &935891035
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 935891032}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 700.03937, y: 29, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &938558898
 GameObject:
   m_ObjectHideFlags: 0
@@ -3328,11 +3404,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 999234014}
-  - component: {fileID: 999234015}
   - component: {fileID: 999234017}
-  - component: {fileID: 999234018}
   m_Layer: 0
-  m_Name: TAGameManager
+  m_Name: TRML GameManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3353,23 +3427,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &999234015
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 999234011}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0c16aec3af3d1c74e96516c9a0fdef4c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  storyText: {fileID: 654674382}
-  userInput: {fileID: 146629482}
-  inputText: {fileID: 313175637}
-  placeHolderText: {fileID: 318675142}
-  scrollRect: {fileID: 775276087}
 --- !u!114 &999234017
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3383,32 +3440,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inventory: []
---- !u!114 &999234018
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 999234011}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7b773979ab592b1488d75b16953de08f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  startingFolder: {fileID: 11400000, guid: d7985adb81e4f4a4fa777c9420e571e9, type: 2}
-  currentFolder: {fileID: 0}
-  toKeyNorth: {fileID: 11400000, guid: a9111387728769142a3559e90fba9cd9, type: 2}
-  folders:
-  - {fileID: 11400000, guid: d7985adb81e4f4a4fa777c9420e571e9, type: 2}
-  - {fileID: 11400000, guid: e4b1308ac48eb455fb254e7a0279cc8a, type: 2}
-  - {fileID: 11400000, guid: 82e9fc440a7b542faa5cafdf109cea1b, type: 2}
-  - {fileID: 11400000, guid: 65ce6e20949f74141a84adce9e69de12, type: 2}
-  - {fileID: 11400000, guid: 9295315cad9ce435d88848c9679a1f39, type: 2}
-  - {fileID: 11400000, guid: ee673b1165ae04961a8d5fc7b6af40bf, type: 2}
-  - {fileID: 11400000, guid: b51c18c4adcff43ea8e1663434c0825c, type: 2}
-  - {fileID: 11400000, guid: 491db248b204a4d9a8d7aa743e335c72, type: 2}
-  - {fileID: 11400000, guid: 99b651a078ae946aaab73539642cc718, type: 2}
-  - {fileID: 11400000, guid: 9498a018f38d2e04cb05e3e44e9d7507, type: 2}
+  terminalLog: 
 --- !u!1 &1009695767
 GameObject:
   m_ObjectHideFlags: 0
@@ -7636,4 +7668,5 @@ SceneRoots:
   - {fileID: 1741461891}
   - {fileID: 1609352437}
   - {fileID: 999234014}
+  - {fileID: 935891035}
   - {fileID: 1699178322}

@@ -20,20 +20,20 @@ public class TAInputManager : MonoBehaviour
     private string story; // holds the story to display
     private List<string> commands = new List<string>();
 
-    private void Awake()
-    {
-        if (instance == null)
-            instance = this;
-        else
-            Destroy(gameObject);
+        private void Awake()
+        {
+        // scene-bound on purpose: this object points at UI that lives in this scene,
+        // so a fresh one has to take over every time the scene loads
+        instance = this;
 
-        DontDestroyOnLoad(gameObject);
-    }
+        story = storyText.text;
 
-    void Start()
-    {
-        Statistics.instance.stats.Terminal.TRMLattempts++;
-        Statistics.instance.SaveStats();
+        // bring back the old terminal text if we're returning to this scene
+        if (TAGameManager.instance != null && !string.IsNullOrEmpty(TAGameManager.instance.terminalLog))
+        {
+            story = TAGameManager.instance.terminalLog;
+            storyText.text = story;
+        }
 
         commands.Add("open");
         commands.Add("download");
@@ -43,10 +43,27 @@ public class TAInputManager : MonoBehaviour
         commands.Add("commands");
         commands.Add("exit");
 
-        story = storyText.text;
         userInput.onEndEdit.AddListener(GetInput);
+        }
 
+    void Start()
+    {
+        if (Statistics.instance != null)
+        {
+            Statistics.instance.stats.Terminal.TRMLattempts++;
+            Statistics.instance.SaveStats();
+        }
 
+        StartCoroutine(ScrollToBottom());
+    }
+
+    private void OnDestroy()
+    {
+        if (userInput != null)
+            userInput.onEndEdit.RemoveListener(GetInput);
+ 
+        if (instance == this)
+            instance = null;
     }
 
     IEnumerator ScrollToBottom()
@@ -120,7 +137,7 @@ public class TAInputManager : MonoBehaviour
                         }
                     }
                     else if (parts[0] == "commands")
-                        UpdateTerminal("Commands: open, download, save, restart, inventory, boot");
+                        UpdateTerminal("Commands: open, download, save, restart, inventory, exit");
 
                     else
                         UpdateTerminal("No file found with that name.");
@@ -142,6 +159,11 @@ public class TAInputManager : MonoBehaviour
     {
         story += "\n" + msg;
         storyText.text = story;
-        StartCoroutine("ScrollToBottom");
+ 
+        // stash it so it survives leaving the scene
+        if (TAGameManager.instance != null)
+            TAGameManager.instance.terminalLog = story;
+ 
+        StartCoroutine(ScrollToBottom());
     }
 }

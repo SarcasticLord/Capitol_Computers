@@ -20,6 +20,7 @@ public class RollPlayerController : MonoBehaviour
 
     void Start()
     {
+        
         rb = GetComponent <Rigidbody>();
         count = 0;
         SetCountText();
@@ -65,6 +66,8 @@ public class RollPlayerController : MonoBehaviour
                 timer.StopTimer();
             }
 
+            Statistics.instance.stats.RollaGoose.RollAttempts++;
+            Statistics.instance.SaveStats();
             Invoke("BacktoTitle", 5f);
         }
     }

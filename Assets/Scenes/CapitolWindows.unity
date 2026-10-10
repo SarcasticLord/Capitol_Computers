@@ -21986,7 +21986,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 2800000, guid: 647ed7b6a64df44018decab39ce18288, type: 3}
+  m_Texture: {fileID: 2800000, guid: 3d5effc444f884a6782bc20925ee25ed, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -22294,7 +22294,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 2800000, guid: 3d5effc444f884a6782bc20925ee25ed, type: 3}
+  m_Texture: {fileID: 2800000, guid: 647ed7b6a64df44018decab39ce18288, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -34256,6 +34256,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1749481079}
+    - target: {fileID: 7102415139499697805, guid: ed0193051f5af4083ba95cc46a9ca22b, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: Settings
+      objectReference: {fileID: 0}
     - target: {fileID: 7153409579844539276, guid: ed0193051f5af4083ba95cc46a9ca22b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 

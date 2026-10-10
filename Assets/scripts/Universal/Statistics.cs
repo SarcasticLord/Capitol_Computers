@@ -2,12 +2,14 @@ using UnityEngine;
 using System.IO;
 
 [System.Serializable]
-public class BBstats
+public class BlockStats
 {
     // BlockBlaster
     public float BlockFastestTime = 0;
     public int BlockMostEnemies = 0;
     public int BlockTrashCollected = 0;
+    public int BlockTimesAttempted = 0;
+
 }
 
 [System.Serializable]
@@ -15,13 +17,14 @@ public class RollStats
 {
     // RollaGoose
     public float RollFastestTime = 0;
+    public int RollAttempts = 0;
 }
 
 [System.Serializable]
-public class TAstats
+public class TRMLstats
 {
     // Terminal
-    public float TAruns = 0;
+    public int TRMLattempts = 0;
 
 }
 
@@ -29,9 +32,9 @@ public class TAstats
 
 public class StatisticsData
 {
-    public BBstats BlockBlaster = new BBstats();
+    public BlockStats BlockBlaster = new BlockStats();
     public RollStats RollaGoose = new RollStats();
-    public TAstats Terminal = new TAstats();
+    public TRMLstats Terminal = new TRMLstats();
 
 
 }

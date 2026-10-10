@@ -32,6 +32,9 @@ public class TAInputManager : MonoBehaviour
 
     void Start()
     {
+        Statistics.instance.stats.Terminal.TRMLattempts++;
+        Statistics.instance.SaveStats();
+
         commands.Add("open");
         commands.Add("download");
         commands.Add("restart");

@@ -1,6 +1,9 @@
 // this is the timer
 // i got this from a tutorial
 
+// this timer is universal and is used all across the game
+// for saving timer times look at rollagoose game for more info
+
 using UnityEngine;
 using TMPro;
 

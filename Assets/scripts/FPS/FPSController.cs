@@ -28,6 +28,9 @@ public class FPSController : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        Statistics.instance.stats.BlockBlaster.BlockTimesAttempted++;
+        Statistics.instance.SaveStats();
+
         Cursor.lockState = CursorLockMode.Locked; 
         Cursor.visible = false;
     }

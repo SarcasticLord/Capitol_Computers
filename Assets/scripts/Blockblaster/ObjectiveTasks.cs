@@ -7,33 +7,38 @@
 // this is also the thing that cleans up trash
 
 using UnityEngine;
-//using system.Collections;
+using System.Collections;
+using UnityEngine.InputSystem;
 
 public class ObjectiveTasks : MonoBehaviour
 {
-    public Camera camera;
+    public Camera playerCamera;
     public PlayerController player;
     public Transform BoxSnap;
 
     void Start()
     {
-        
+        if (player == null) player = FindObjectOfType<PlayerController>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        Ray ray = Camera.main.ViewportPointToRay(new Vector3(0.5f, 0.5f, 0)); // this is here so i can see the ray without needing to hit E or MB0
+
+        if(playerCamera == null) return;
+
+        Ray ray = playerCamera.ViewportPointToRay(new Vector3(0.5f, 0.5f, 0)); // this is here so i can see the ray without needing to hit E or MB0
         Debug.DrawRay(ray.origin, ray.direction * 5f, Color.green);
         
-        if (Input.GetMouseButtonDown(0)) 
+        if (Mouse.current != null && Mouse.current.leftButton.wasPressedThisFrame) 
         {
             CleanTrash();
             
         }
 
-        if (Input.GetKeyDown(KeyCode.E))
+        if (Keyboard.current != null && Keyboard.current.eKey.wasPressedThisFrame)
         {
+            Debug.Log("E");
             PickupBox();
         }
     }
@@ -42,7 +47,7 @@ public class ObjectiveTasks : MonoBehaviour
     {
         if (player.HoldingBroom() == false) return;
 
-        Ray ray = camera.ViewportPointToRay(new Vector3 (0.5f, 0.5f, 0));
+        Ray ray = playerCamera.ViewportPointToRay(new Vector3 (0.5f, 0.5f, 0));
         RaycastHit hit;
 
         Debug.DrawRay(ray.origin, ray.direction * 5f, Color.red);
@@ -69,7 +74,7 @@ public class ObjectiveTasks : MonoBehaviour
     {
         if (player.holdItem != null) return;
 
-        Ray ray = camera.ViewportPointToRay(new Vector3 (0.5f, 0.5f, 0));
+        Ray ray = playerCamera.ViewportPointToRay(new Vector3 (0.5f, 0.5f, 0));
         RaycastHit hit;
 
         Debug.DrawRay(ray.origin, ray.direction * 5f, Color.red);
@@ -81,13 +86,15 @@ public class ObjectiveTasks : MonoBehaviour
 
             if (hit.transform.CompareTag("pickUp")) // snapping the box to the snap point
             {
-                //holdItem = gameObject;
+                GameObject box = hit.transform.gameObject;
+                player.holdItem = box;
 
                 hit.transform.gameObject.transform.position = BoxSnap.position;
                 hit.transform.gameObject.transform.rotation = BoxSnap.rotation;
                 hit.transform.gameObject.transform.SetParent(BoxSnap);
 
-                hit.transform.GetComponent<BoxMovement>().StopRotating(); // stops the box spinning
+                BoxMovement movement = box.GetComponent<BoxMovement>();
+                if (movement != null) movement.StopRotating(); // stops the box spinning
             }
 
         }

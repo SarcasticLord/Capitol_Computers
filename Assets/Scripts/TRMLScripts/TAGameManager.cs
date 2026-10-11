@@ -64,7 +64,7 @@ public class TAGameManager : MonoBehaviour
             gameState.currentFolder = TANavigationManager.instance.currentFolder.name;
             gameState.inventory = inventory;
 
-            Directory.CreateDirectory(FilePaths.GetCapitolFolder());
+            //Directory.CreateDirectory(FilePaths.GetCapitolFolder());
             File.WriteAllText(SavePath, JsonUtility.ToJson(gameState, true));
             Debug.Log("game saved - from Save()");
         }

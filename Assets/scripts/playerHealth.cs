@@ -3,12 +3,15 @@ using UnityEngine.UI;
 
 public class PlayerHealth : MonoBehaviour
 {
-public int health;
-public int maxHealth = 100;
-public GameObject loseTextObject;
+    public int health;
+    public int maxHealth = 100;
+    public GameObject loseTextObject;
+    public PlayerController player;
 
     void Start()
     {
+        player = FindObjectOfType<PlayerController>();
+
         health = maxHealth;
         slider.maxValue = maxHealth;
         slider.value = health;

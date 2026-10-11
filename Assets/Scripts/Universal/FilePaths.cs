@@ -19,7 +19,9 @@ public static class FilePaths
 
     public static string GetCapitolFolder()
     {
-        return Path.GetFullPath(Path.Combine(GetGameFolder(), "CapitolSystems"));
+        string folder =  Path.GetFullPath(Path.Combine(GetGameFolder(), "CapitolSystems"));
+        Directory.CreateDirectory(folder);
+        return folder;
     }
 
     public static void WriteMessage(string fileName, string text)
@@ -27,7 +29,6 @@ public static class FilePaths
         try
         {
             string folder = GetCapitolFolder();
-            Directory.CreateDirectory(folder);
             File.WriteAllText(Path.Combine(folder, fileName), text);
         }
         catch (Exception e)

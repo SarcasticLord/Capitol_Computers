@@ -104,7 +104,7 @@ public class SceneManagerScript : MonoBehaviour
         SceneManager.LoadScene("Credits");
     }
 
-    public void WindowsOS() // OPENS WINDOWS OS
+    public void WindowsOS() // OPENS WINDOWS OS --------------------------------------------------------------------
     {
         SceneManager.LoadScene("CapitolWindows");
     }
@@ -131,9 +131,6 @@ public class SceneManagerScript : MonoBehaviour
         SaveState.lastScene = "CritError";
         SceneManager.LoadScene("CriticalError");
     }
-
-
-    
 
     public void OpenLinkedin()
     {
@@ -178,6 +175,8 @@ public class SceneManagerScript : MonoBehaviour
         Debug.Log("open folder");
         FilePaths.OpenCapitolFolder();
     }
+
+    
 }
 
 

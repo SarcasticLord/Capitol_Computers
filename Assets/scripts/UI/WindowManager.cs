@@ -5,6 +5,7 @@ using System.Collections.Generic;
 public class WindowManager : MonoBehaviour
 {
     public static WindowManager instance;
+    public static string pendingWindows;
 
     [System.Serializable]
 
@@ -40,7 +41,11 @@ public class WindowManager : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        if (!string.IsNullOrEmpty(pendingWindows))
+        {
+            OpenWindow(pendingWindows);
+            pendingWindows = null;
+        }
     }
 
     // Update is called once per frame

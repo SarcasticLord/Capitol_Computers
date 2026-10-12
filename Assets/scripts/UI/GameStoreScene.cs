@@ -55,4 +55,11 @@ public class GameStoreScene : MonoBehaviour
         blockSelected.SetActive(false);
         gooseSelected.SetActive(true);
     }
+
+    public void LaunchTweakScene()
+    {
+        WindowManager.pendingWindows = "Explorer";
+        SceneManagerScript.instance.WindowsOS();
+    }
+
 }
